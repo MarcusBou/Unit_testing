@@ -5,21 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 using ATMLibraryFramework;
+using Autofac.Extras.Moq;
 
 namespace ATMLibraryFramework.test
 {
     public class ATMTest
     {
         [Theory]
-        [InlineData("1111222233334444", "Balletdanseren", 1094, 1094, true)]
-        [InlineData("1111555522224444", "Kalle", 1243, 1243, true)]
-        [InlineData("1111222233334444", "Christan", 1111, 1111, true)]
-        public void CheckPin_ShouldWork(string cardnumber, string cardHolder, int actualpin, int givenpin, bool expected)
+        [InlineData(5012, true)]
+        public void CheckPin_ShouldWork(int givenpin, bool expected)
         {
             // Arrange
-            Card card = new Card(cardnumber, cardHolder, actualpin, new Account(5000));
-
-            // Act
+            using (var mock = AutoMock.GetLoose())
+            {
+                mock.Mock<Card>().Setup();
+            }
+                // Act
             bool actual = ATM.CheckPin(givenpin);
 
             // Assert
@@ -37,5 +38,17 @@ namespace ATMLibraryFramework.test
 
         }
 
+        public List<Card> GetListOfCards()
+        {
+            return new List<Card>
+            {
+                new Card("1111 2222 3333 4444", "Marcusse", 5012, new Account(5000)),
+                new Card("1111 4444 3333 5555", "Kalle", 5120, new Account(5000)),
+                new Card("3333 2222 1111 4444", "Nelson", 9802, new Account(5000)),
+                new Card("9999 2222 8888 4444", "Danielle", 1166, new Account(5000)),
+                new Card("1111 3333 3333 4434", "Evan", 3333, new Account(5000))
+            };
+
+        }
     }
 }
