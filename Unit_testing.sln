@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM_UI", "ATM_UI\ATM_UI.csproj", "{6889B390-C2A7-48C8-AD44-50515D77892A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ATM_UI", "ATM_UI\ATM_UI.csproj", "{6889B390-C2A7-48C8-AD44-50515D77892A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMLibrary", "ATMLibrary\ATMLibrary.csproj", "{6F2340CF-FF19-43D8-81BA-268383AD3648}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMLibraryFramework", "ATMLibraryFramework\ATMLibraryFramework.csproj", "{AA5E83F0-4348-408D-973A-D415EB9CD1E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMLibrary.test", "ATMLibrary.test\ATMLibrary.test.csproj", "{2FF54848-852C-4D30-941A-8F52B5A648A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMLibraryFramework.test", "ATMLibraryFramework.test\ATMLibraryFramework.test.csproj", "{C4825CCC-D9E2-4F06-A2DD-0E7FE84421CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{6889B390-C2A7-48C8-AD44-50515D77892A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6889B390-C2A7-48C8-AD44-50515D77892A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6889B390-C2A7-48C8-AD44-50515D77892A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F2340CF-FF19-43D8-81BA-268383AD3648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6F2340CF-FF19-43D8-81BA-268383AD3648}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F2340CF-FF19-43D8-81BA-268383AD3648}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6F2340CF-FF19-43D8-81BA-268383AD3648}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2FF54848-852C-4D30-941A-8F52B5A648A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FF54848-852C-4D30-941A-8F52B5A648A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FF54848-852C-4D30-941A-8F52B5A648A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FF54848-852C-4D30-941A-8F52B5A648A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5E83F0-4348-408D-973A-D415EB9CD1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5E83F0-4348-408D-973A-D415EB9CD1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5E83F0-4348-408D-973A-D415EB9CD1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5E83F0-4348-408D-973A-D415EB9CD1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4825CCC-D9E2-4F06-A2DD-0E7FE84421CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4825CCC-D9E2-4F06-A2DD-0E7FE84421CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4825CCC-D9E2-4F06-A2DD-0E7FE84421CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4825CCC-D9E2-4F06-A2DD-0E7FE84421CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marc8847\\Documents\\Github\\Unit_testing\\ATMLibrary\\ATMLibrary.csproj": {}
+    "C:\\Users\\MBour\\OneDrive\\Dokumenter\\GitHub\\Unit_testing\\ATMLibrary\\ATMLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marc8847\\Documents\\Github\\Unit_testing\\ATMLibrary\\ATMLibrary.csproj": {
+    "C:\\Users\\MBour\\OneDrive\\Dokumenter\\GitHub\\Unit_testing\\ATMLibrary\\ATMLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marc8847\\Documents\\Github\\Unit_testing\\ATMLibrary\\ATMLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\MBour\\OneDrive\\Dokumenter\\GitHub\\Unit_testing\\ATMLibrary\\ATMLibrary.csproj",
         "projectName": "ATMLibrary",
-        "projectPath": "C:\\Users\\Marc8847\\Documents\\Github\\Unit_testing\\ATMLibrary\\ATMLibrary.csproj",
-        "packagesPath": "C:\\Users\\Marc8847\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marc8847\\Documents\\Github\\Unit_testing\\ATMLibrary\\obj\\",
+        "projectPath": "C:\\Users\\MBour\\OneDrive\\Dokumenter\\GitHub\\Unit_testing\\ATMLibrary\\ATMLibrary.csproj",
+        "packagesPath": "C:\\Users\\MBour\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MBour\\OneDrive\\Dokumenter\\GitHub\\Unit_testing\\ATMLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Marc8847\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\MBour\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

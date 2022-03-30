@@ -13,6 +13,12 @@ namespace ATMLibrary
         private int pin;
         private Account linkedAccount;
 
-
+        public Card(string cardnumb, string ownname, int pin, Account account)
+        {
+            this.cardNumber = cardnumb;
+            this.ownerName = ownname;
+            this.pin = pin;
+            this.linkedAccount = account;
+        }
     }
 }

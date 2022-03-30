@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2ff54848-852c-4d30-941a-8f52b5a648a4": {
+      "ProjectGuid": "2ff54848-852c-4d30-941a-8f52b5a648a4",
+      "DisplayName": "ATMLibrary.test",
+      "ColorIndex": 0
+    },
+    "6f2340cf-ff19-43d8-81ba-268383ad3648": {
+      "ProjectGuid": "6f2340cf-ff19-43d8-81ba-268383ad3648",
+      "DisplayName": "ATMLibrary",
+      "ColorIndex": 1
+    },
+    "6889b390-c2a7-48c8-ad44-50515d77892a": {
+      "ProjectGuid": "6889b390-c2a7-48c8-ad44-50515d77892a",
+      "DisplayName": "ATM_UI",
+      "ColorIndex": 2
+    },
+    "aa5e83f0-4348-408d-973a-d415eb9cd1e0": {
+      "ProjectGuid": "aa5e83f0-4348-408d-973a-d415eb9cd1e0",
+      "DisplayName": "ATMLibraryFramework",
+      "ColorIndex": 3
+    },
+    "c4825ccc-d9e2-4f06-a2dd-0e7fe84421cd": {
+      "ProjectGuid": "c4825ccc-d9e2-4f06-a2dd-0e7fe84421cd",
+      "DisplayName": "ATMLibraryFramework.test",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

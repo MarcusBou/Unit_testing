@@ -1,0 +1,12 @@
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\bin\Debug\net5.0\ATMLibrary.deps.json
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\bin\Debug\net5.0\ATMLibrary.dll
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\bin\Debug\net5.0\ref\ATMLibrary.dll
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\bin\Debug\net5.0\ATMLibrary.pdb
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\obj\Debug\net5.0\ATMLibrary.csproj.AssemblyReference.cache
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\obj\Debug\net5.0\ATMLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\obj\Debug\net5.0\ATMLibrary.AssemblyInfoInputs.cache
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\obj\Debug\net5.0\ATMLibrary.AssemblyInfo.cs
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\obj\Debug\net5.0\ATMLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\obj\Debug\net5.0\ATMLibrary.dll
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\obj\Debug\net5.0\ref\ATMLibrary.dll
+C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibrary\obj\Debug\net5.0\ATMLibrary.pdb
