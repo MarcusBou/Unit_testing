@@ -22,5 +22,11 @@ namespace ATMLibraryFramework
             }
             return false;
         }
+
+        public double WithdrawFromAccount(double amount)
+        {
+            this.amount -= amount;
+            return amount;
+        }
     }
 }

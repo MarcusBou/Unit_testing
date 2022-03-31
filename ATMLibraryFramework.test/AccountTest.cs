@@ -37,5 +37,18 @@ namespace ATMLibraryFramework.test
             // Assert
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData(1000, 5000, 1000)]
+        [InlineData(9999, 10000, 9999)]
+        public void WithdrawFromAccount_ShouldBePossible (double amount, double accBalance, double expected)
+        {
+            // Arrange
+            Account account = new Account(accBalance);
+            // Act
+            double actual = account.WithdrawFromAccount(amount);
+            // Assert
+            Assert.Equal(expected, actual);
+        }
     }
 }
