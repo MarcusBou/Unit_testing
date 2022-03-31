@@ -13,5 +13,14 @@ namespace ATMLibraryFramework
         {
             this.amount = amount;  
         }
+
+        public bool CheckIfWithdrawable(double amount)
+        {
+            if (amount <= this.amount)
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

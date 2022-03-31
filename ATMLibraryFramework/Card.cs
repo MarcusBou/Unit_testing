@@ -13,6 +13,11 @@ namespace ATMLibraryFramework
         private int pin;
         private Account linkedAccount;
 
+        public string CardNumber { get { return cardNumber; } }
+        public string OwnerName { get { return ownerName; } }
+        public int Pin { get { return pin; }  }
+        public Account LinkedAccount { get { return linkedAccount; } }
+
         public Card(string cardnumb, string ownname, int pin, Account account)
         {
             this.cardNumber = cardnumb;

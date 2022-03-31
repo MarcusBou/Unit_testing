@@ -12,31 +12,88 @@ namespace ATMLibraryFramework.test
     public class ATMTest
     {
         [Theory]
-        [InlineData(5012, true)]
-        public void CheckPin_ShouldWork(int givenpin, bool expected)
+        [InlineData(0, 5012, true)]
+        [InlineData(1, 5120, true)]
+        [InlineData(2, 9802, true)]
+        public void CheckPin_ShouldWork(int index, int givenpin, bool expected)
         {
             // Arrange
-            using (var mock = AutoMock.GetLoose())
-            {
-                mock.Mock<Card>().Setup();
-            }
-                // Act
-            bool actual = ATM.CheckPin(givenpin);
+            ATM atm = new ATM();
+            Card card = GetListOfCards()[index];
+
+            // Act
+            atm.InsertedCard = card;
+            bool actual = atm.CheckPin(givenpin);
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Theory]
+        [InlineData(0, 1, false)]
+        [InlineData(1, 4625, false)]
+        [InlineData(2, 0, false)]
+        public void CheckPin_ShouldntWork(int index, int givenpin, bool expected)
+        {
+            // Arrange
+            ATM atm = new ATM();
+            Card card = GetListOfCards()[index];
+
+            // Act
+            atm.InsertedCard = card;
+            bool actual = atm.CheckPin(givenpin);
 
             // Assert
             Assert.Equal(expected, actual);
         }
 
         [Fact]
-        public void CheckPin_ShouldntWork()
+        public void ValidateCard_ShouldWork()
         {
             // Arrange
+            bool expected = true;
+            ATM atm = new ATM();
+            atm.InsertedCard = GetListOfCards()[0];
 
             // Act
+            bool actual = atm.ValidateCard();
 
             // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void ValidateCard_ShouldntWork()
+        {
+            // Arrange
+            bool expected = false;
+            ATM atm = new ATM();
+
+            // Act
+            bool actual = atm.ValidateCard();
+
+            // Assert
+            Assert.Equal(expected, actual);
+        }
+
+        [Theory]
+        [InlineData(1000, "1000 kr.")]
+        public void Withdraw_ShouldWithdrawFromAttachedAccount(int amount, string expected)
+        {
+            // Arrange
+            ATM atm = new ATM();
+            atm.InsertedCard = GetListOfCards()[0];
+
+            // Act
+            string actual = atm.Withdraw(amount);
+
+
+            // Assert
+            Assert.Equal(expected, actual);
 
         }
+
+
 
         public List<Card> GetListOfCards()
         {

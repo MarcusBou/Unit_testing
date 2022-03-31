@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MBour\\OneDrive\\Dokumenter\\GitHub\\Unit_testing\\ATM_UI\\ATM_UI.csproj": {}
+    "C:\\Users\\Marc8847\\Documents\\Github\\Unit_testing\\ATM_UI\\ATM_UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MBour\\OneDrive\\Dokumenter\\GitHub\\Unit_testing\\ATM_UI\\ATM_UI.csproj": {
+    "C:\\Users\\Marc8847\\Documents\\Github\\Unit_testing\\ATM_UI\\ATM_UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MBour\\OneDrive\\Dokumenter\\GitHub\\Unit_testing\\ATM_UI\\ATM_UI.csproj",
+        "projectUniqueName": "C:\\Users\\Marc8847\\Documents\\Github\\Unit_testing\\ATM_UI\\ATM_UI.csproj",
         "projectName": "ATM_UI",
-        "projectPath": "C:\\Users\\MBour\\OneDrive\\Dokumenter\\GitHub\\Unit_testing\\ATM_UI\\ATM_UI.csproj",
-        "packagesPath": "C:\\Users\\MBour\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MBour\\OneDrive\\Dokumenter\\GitHub\\Unit_testing\\ATM_UI\\obj\\",
+        "projectPath": "C:\\Users\\Marc8847\\Documents\\Github\\Unit_testing\\ATM_UI\\ATM_UI.csproj",
+        "packagesPath": "C:\\Users\\Marc8847\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Marc8847\\Documents\\Github\\Unit_testing\\ATM_UI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MBour\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Marc8847\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
