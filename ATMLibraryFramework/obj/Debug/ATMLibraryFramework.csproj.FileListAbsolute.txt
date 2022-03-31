@@ -3,7 +3,6 @@ C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibraryFramework\bin\D
 C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibraryFramework\obj\Debug\ATMLibraryFramework.csproj.CoreCompileInputs.cache
 C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibraryFramework\obj\Debug\ATMLibraryFramework.dll
 C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibraryFramework\obj\Debug\ATMLibraryFramework.pdb
-C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATMLibraryFramework\obj\Debug\ATMLibraryFramework.csproj.AssemblyReference.cache
 C:\Users\Marc8847\Documents\Github\Unit_testing\ATMLibraryFramework\bin\Debug\ATMLibraryFramework.dll
 C:\Users\Marc8847\Documents\Github\Unit_testing\ATMLibraryFramework\bin\Debug\ATMLibraryFramework.pdb
 C:\Users\Marc8847\Documents\Github\Unit_testing\ATMLibraryFramework\obj\Debug\ATMLibraryFramework.csproj.AssemblyReference.cache

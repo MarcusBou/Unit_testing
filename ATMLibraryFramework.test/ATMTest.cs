@@ -78,7 +78,28 @@ namespace ATMLibraryFramework.test
 
         [Theory]
         [InlineData(1000, "1000 kr.")]
+        [InlineData(500, "500 kr.")]
+        [InlineData(22, "22 kr.")]
         public void Withdraw_ShouldWithdrawFromAttachedAccount(int amount, string expected)
+        {
+            // Arrange
+            ATM atm = new ATM();
+            atm.InsertedCard = GetListOfCards()[0];
+
+            // Act
+            string actual = atm.Withdraw(amount);
+
+
+            // Assert
+            Assert.Equal(expected, actual);
+
+        }
+
+        [Theory]
+        [InlineData(9660, "Not a valid withdrawal amount")]
+        [InlineData(5001, "Not a valid withdrawal amount")]
+        [InlineData(23314, "Not a valid withdrawal amount")]
+        public void Withdraw_ShouldntWithdrawFromAttachedAccount(int amount, string expected)
         {
             // Arrange
             ATM atm = new ATM();

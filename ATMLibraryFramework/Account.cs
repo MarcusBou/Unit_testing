@@ -16,7 +16,7 @@ namespace ATMLibraryFramework
 
         public bool CheckIfWithdrawable(double amount)
         {
-            if (amount <= this.amount)
+            if (amount <= this.amount && amount > 0 && this.amount > 0)
             {
                 return true;
             }

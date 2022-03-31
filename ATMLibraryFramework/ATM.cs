@@ -59,7 +59,7 @@ namespace ATMLibraryFramework
             {
                 return $"{amount} kr.";
             }
-            return $"Not a valid ty";
+            return $"Not a valid withdrawal amount";
         }
     }
 }

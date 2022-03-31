@@ -26,7 +26,7 @@ namespace ATMLibraryFramework.test
         [Theory]
         [InlineData(double.MaxValue, double.MinValue)]
         [InlineData(1000, 500)]
-        [InlineData(0, -10)]
+        [InlineData(-10, 0)]
         public void CheckIfWithdrawable_ShouldntWorkWithAmountOutsideBalanceBarrier(double amount, double accBalance)
         {
             // Arrange

@@ -29,4 +29,3 @@ C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATM_UI\obj\Debug\net5.0\A
 C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATM_UI\obj\Debug\net5.0\ref\ATM_UI.dll
 C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATM_UI\obj\Debug\net5.0\ATM_UI.pdb
 C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATM_UI\obj\Debug\net5.0\ATM_UI.genruntimeconfig.cache
-C:\Users\MBour\OneDrive\Dokumenter\GitHub\Unit_testing\ATM_UI\obj\Debug\net5.0\ATM_UI.csproj.AssemblyReference.cache
